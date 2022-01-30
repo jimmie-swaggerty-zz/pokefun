@@ -1,0 +1,21 @@
+$primary: #FF0000;
+@import "~bootstrap/scss/bootstrap";@import "~bootstrap/scss/bootstrap";
+
+.round {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+}
+
+.pokemon-circle{
+  width: 100px;
+  height: 100px;
+  background-color: white;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  background-size: contain;
+}
+
+.w-150px {
+  width: 150px !important;
+}
