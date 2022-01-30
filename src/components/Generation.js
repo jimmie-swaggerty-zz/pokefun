@@ -21,7 +21,7 @@ const Generation = (props) => {
     }, [params])
     return (
         <div>
-            <h1 className="mb-3 bg-primary text-white p-3">{Utilities.toGenName(params.generationName)}</h1>
+            <h1 className=" text-center mb-3 bg-primary text-white p-3">{Utilities.toGenName(params.generationName)}</h1>
             <div className='d-flex row g-4 p-4'>
                 {selectedGenerationInfo && selectedGenerationInfo.sort((a, b) => { return a.pokemonId - b.pokemonId }).map(pokemon => {
                     console.log(pokemon)
